@@ -21,12 +21,15 @@ visit this website to create api key
 
 ## install ollama
 [ollama website](https://ollama.com/download)
+
 run the executable file of the ollama
 
 ## download the embedding model from terminal
 ollama pull nomic-embed-text
+ ### run ollama for pdf embeddings
+ ollama run
 
-# run the project  
+## run the project  
 chainlit run app.py
 
 
